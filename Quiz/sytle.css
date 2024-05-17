@@ -195,6 +195,7 @@ nav {
 }
 
 .previewMenu {
+    opacity: 0;
     position: fixed;
     top: 50%;
     left: 50%;
@@ -206,7 +207,7 @@ nav {
     background-color: rgba(255, 255, 255, 0.979);
     backdrop-filter: blur(1px);
     box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.15);
-    opacity: 0;
+    
     pointer-events: none;
     z-index: 2;
     transition: opacity 200ms ease-in-out, transform 200ms ease-in-out;
