@@ -7,11 +7,7 @@ function toggle_remove() {
 
     var popup = document.getElementById("previewMenu");
     popup.classList.remove("active");
-
-
 }
-
-
 
 var food1 = {
     image: "FoodPic/y1.png",
@@ -41,7 +37,6 @@ var food4 = {
     description: "Yes + Tenga with JavaRice"
 };
 
-
 var food5 = {
     image: "FoodPic/y5.png",
     name: "Y5",
@@ -55,7 +50,6 @@ var food6 = {
     price: "₱129",
     description: "Yes + Isaw manok with JavaRice"
 };
-
 
 var food7 = {
     image: "FoodPic/y7.png",
@@ -86,7 +80,6 @@ var food10 = {
     description: "Inihaw na porkchop with java rice"
 };
 
-
 var food11 = {
     image: "FoodPic/y11.png",
     name: "Y11",
@@ -100,7 +93,6 @@ var food12 = {
     price: "₱129",
     description: "Yes + Bulaklak with Java Rice"
 };
-
 
 var current_product = null;
 var shopping_cart = [];
